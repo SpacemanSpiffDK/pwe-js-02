@@ -1,0 +1,69 @@
+/* 
+	CSS by Dan Høegh
+	UCN MMD 2018 
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	padding: 25px;
+	background-color: #c7ecee;
+}
+
+h1 {
+	background-color: #22a6b3;
+	color: #fff;
+	margin: 0;
+	padding: 25px;
+	font-weight: 400;
+	font-size: 35px;
+}
+
+ul {
+	margin: 25px 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+	margin: 0;
+	padding: 25px;
+	background-color: #30336b;
+	color: #f9ca24;
+	font-size: 25px;
+}
+
+li+li {
+	margin-top: 10px;
+}
+
+#newItemInput {
+	margin-top: 10px;
+	padding: 25px;
+	background-color: #fff;
+	color: #130f40;
+	font-size: 25px;
+	display: block;
+	width: 100%;
+	border: none;
+}
+
+.btn {
+	border-radius: 10px;
+	margin-top: 10px;
+	padding: 25px;
+	background-color: #130f40;
+	color: #f9ca24;
+	font-size: 25px;
+	display: block;
+	text-decoration: none;
+	box-shadow: 3px 3px 7px rgba(0,0,0,.5);
+	transition: all .2s linear;
+}
+
+.btn:hover {
+	box-shadow: 0px 0px 7px rgba(0,0,0,.5);	
+}
