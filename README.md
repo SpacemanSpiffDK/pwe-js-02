@@ -1,2 +1,2 @@
 # pwe0918-js-02
-Lecture material for JS-2
+Lecture material for JS 02
